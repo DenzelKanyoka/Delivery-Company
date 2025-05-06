@@ -1,0 +1,308 @@
+
+h1 {
+    font-family: sans-serif;
+    color: black;
+}
+
+p {
+    font-family: sans-serif;
+    color: black;       
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/images/background.jpg);
+    background-color:aqua;
+    background-size: auto;
+    margin-top: 80px
+}
+
+
+
+
+
+#banner{
+    width: 102%;
+    height: 500px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    background-image: url(assets/images/banner.jpg);
+    background-size: 100%;
+    
+}
+
+.side{
+   width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#main{
+    background-color: silver;
+    width: 75%;
+}
+
+.mains{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-top-color: goldenrod;
+    border-top-style: solid;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+#main1{
+    text-align: left;
+    align-content: flex-start;
+}
+
+#main2{
+    text-align: right;
+    align-content: flex-end;
+}
+
+.meat {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    
+}
+
+.link_but{
+    border-color: black;
+    color: goldenrod;
+    width: 100px;
+    height: 50px;
+    background-color: goldenrod;
+    color: black;
+    border-style: groove;
+    border-radius: 10px;
+    cursor:pointer;
+    
+}
+
+.link_but:hover{
+    background-color: deepskyblue;
+    
+}
+
+a{
+    color: black;
+}
+
+#button2{
+    margin-left:auto;
+}
+
+#content{
+    margin-left: 10%;
+   
+}
+
+#nco{
+    color: goldenrod;
+    outline-color: black;
+    outline-width: thick;
+    font-size: 60px;
+    text-shadow: 4px 4px 0px black;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-width: thick;
+    width: 40%;
+    
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px orange;
+    margin-top: -30px;
+}
+
+h3{
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 30px;
+}
+
+b{
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 30px;
+
+}
+
+
+/* heading */
+
+#logo{
+    width: 8%;
+    height: 100%;
+    margin-left: 0.8%;
+    display: flex;
+    flex-direction: row;
+    
+}
+#logoi{
+    width: 100%;
+    height: 100%;
+}
+
+#heading {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 102%;
+    height: 80px;
+    margin-top: -8px;
+    z-index: 10;
+    position: fixed;
+    margin-top: -80px;
+}
+
+#header_link{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#nco2{
+    color: darkorange;
+    outline-color: black;
+    outline-width: thick;
+    font-size: 40px;
+    text-shadow: 4px 4px 0px black;
+  
+   
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 15px;
+    
+}
+
+#tb{
+    
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+
+.top:hover{
+    border-left-color: white;
+    border-left-style: groove;
+    background-color: white;
+    color: black;
+    border-top: none;
+    cursor: pointer;
+    
+    
+}
+
+.top{
+    border-left-color: white;
+    border-left-style: groove;
+    background-color: black;
+    color: white;
+    border-top: none;
+    cursor: pointer;
+    width: 120px;
+    
+    
+}
+
+.home:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border:none;
+    
+}
+
+.home{
+    background-color: black;
+    border: none;
+    color: darkorange;
+    outline-color: white;
+    outline-width: thick;
+    font-size: 50px;
+    text-shadow: 4px 4px 0px black;
+    font-family: sans-serif;
+   
+}
+.service_banner{
+    display: flex;
+    flex-direction: row;
+    width: 102%;
+    height: 5v;
+}
+
+.bar{
+    width: 40%;
+    background-color: #0d0d0d;
+    
+}
+.bar2{
+    width: 10%;
+    background-color: goldenrod;
+    
+}
+
+.service_heading1{
+    width: 1000px;
+    height: 500px;
+    background-size: auto;
+}
+.service_img{
+    width: 100%;
+    height: 100%;
+}
+
+.service_title{
+   
+    z-index: 5; 
+    font-family: sans-serif;
+    color: goldenrod;
+    font-size: 80px;
+    margin-left: 10px;
+    align-content: center;
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 4px 4px 0px #503102;
+}
+
+
+/* footer */
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 102%;
+    position : absolute;
+    height: 100%;
+    margin-top: 1699.8px;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right-style: solid;
+    border-right-color: white;
+    width: 33%;
+    text-align: center;
+}
+
+.fc{
+    color: white;
+}
